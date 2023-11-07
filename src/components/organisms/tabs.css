@@ -1,0 +1,58 @@
+/* Estilo para el contenedor de los tabs */
+.tabs-container {
+    background-color: var(--color3) !important; /* Utiliza la clase de color para el fondo */
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+
+/* Estilo para las tabs */
+.tabs {
+    justify-content: center;
+    color: #fff; /* Establece el color del texto en blanco */
+}
+
+/* Estilo para cada tab individual */
+.tab {
+    padding: 10px;
+    background-color: var(--color2);
+    color: #fff; /* Establece el color del texto en blanco */
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/* Estilo para la tab activa */
+.tab.active {
+    background-color: var(--color4);
+    color: #fff; /* Establece el color del texto en blanco */
+}
+
+/* Estilo para los iconos en las tabs */
+.tab-icon {
+    margin-right: 5px;
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Asigna las clases de color */
+.color1 {
+    --color1: #2f003f;
+}
+
+.color2 {
+    --color2: #be0001;
+}
+
+.color3 {
+    --color3: #ff8006;
+}
+
+.color4 {
+    --color4: #f3c75f;
+}
+
+.color5 {
+    --color5: #e9cfaa;
+}
